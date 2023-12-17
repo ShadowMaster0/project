@@ -1,0 +1,57 @@
+/* General Styles */
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #000;  /* Text color is set to black */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #fff;  /* Text color changes to white when hovered */
+
+}
+
+.signInPage .signUpSection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signInPage .signUpSection p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* If you want spacing between components or any other layout-specific styling, you can add them too */

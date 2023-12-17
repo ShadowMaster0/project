@@ -1,0 +1,21 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    max-width: 300px;  /* Giving a max width can be useful for responsiveness */
+  }
+  
+  .product h2 {
+    font-size: 1.5rem;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
